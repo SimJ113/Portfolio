@@ -1,0 +1,85 @@
+   
+        @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Play:wght@400;700&family=Press+Start+2P&display=swap');
+        
+        body {
+            font-family: "Merriweather", serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            min-height: 100vh;
+        }
+         section {
+                margin-bottom: 2em;
+                background-color: #FFFFCC;
+                padding: 1.5em;
+                border-radius: 8px;
+                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            }
+        #first {
+            background-color: #6F90AF; 
+        }
+        #second {
+            background-color: #ABC3CD;
+        }
+        #third {
+            background-color: #DFE9EB;
+        }
+        nav {
+            background-color: #000112;
+            color: white;
+            padding: 20px;
+            width: 85px;
+            height: 100vh;
+            position: fixed;
+            display: flex;
+            flex-direction: column;
+        }
+        #navtext1, #navtext2 {
+            color: white;
+            text-decoration: none;
+            margin: 10px 0;
+            font-size: 18px;
+        }
+        
+        .content {
+            margin-left: 200px;
+            flex: 1;
+            display: flex;
+            justify-content: top;
+            align-items: center;
+            flex-direction: column;
+            padding: 20px;
+        }
+        .websites {
+            width: 75%;
+            height: 75%;
+        }
+        
+         .flex-container {
+                display: flex;
+                gap: 20px;
+                align-items: center;
+            }
+
+            .flex-container .image-container {
+                flex: 4;
+            }
+        
+         .flex-container .text-container {
+                flex: 3;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                padding-left: 20px;
+                line-height: 1.6;
+                text-align: justify;
+                font-size: 18px;
+            }
+            .flex-container img {
+                    height: auto;
+                }
+        .title {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
